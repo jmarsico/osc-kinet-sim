@@ -1,0 +1,7 @@
+{
+	"kinet_ip" : "10.71.57.114",
+	"kinet_port" : 6038,
+	"kinet_psPort" : 1,
+	"osc_in_port" : 6000,
+	"dmx_port": "tty.usbserial-EN143965"
+}
