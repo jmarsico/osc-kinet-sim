@@ -11,6 +11,7 @@ void ofApp::setup(){
     
     ofxJSONElement config;
     bool success = config.open("config.json");
+    int numChannels = 48*3;
     
     if(success){
         ofLog() << "loaded config";
@@ -25,13 +26,14 @@ void ofApp::setup(){
         
         kinet.init(kIP, kinet_port, kinet_psPort);
         
-        dmx.connect(dmx_port);
+        
+        dmx.connect(dmx_port, numChannels);
         
     } else {
         ofLog() << "could not load config";
         osc.setup(12345);
         kinet.init("10.41.57.114", 6038, 1);
-        dmx.connect(0);
+        dmx.connect(0, numChannels );
     }
     
     
