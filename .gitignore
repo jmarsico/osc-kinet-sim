@@ -1,5 +1,5 @@
 # ignore bin folders' contents, except data folder therein
-/bin/*
+
 !/bin/data/
 
 # Some general ignore patterns
