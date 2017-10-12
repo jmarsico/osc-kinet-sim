@@ -104,9 +104,9 @@ void ofApp::update(){
                     kinet.setValue(i+1, g);
                     kinet.setValue(i+2, b);
                     
-                    dmx.setLevel(i, r);
-                    dmx.setLevel(i+1, g);
-                    dmx.setLevel(i+2, b);
+                    dmx.setLevel(i+1, r);
+                    dmx.setLevel(i+2, g);
+                    dmx.setLevel(i+3, b);
                 }
             }
         }
