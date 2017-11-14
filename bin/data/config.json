@@ -3,5 +3,6 @@
 	"kinet_port" : 6038,
 	"kinet_psPort" : 1,
 	"osc_in_port" : 12345,
-	"dmx_port": "tty.usbserial-EN143965"
+	"dmx_port": "tty.usbserial-EN143965",
+	"bFlipped" : true
 }

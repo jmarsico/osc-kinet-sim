@@ -42,5 +42,6 @@ class ofApp : public ofBaseApp{
     
     bool bSendDMX;
     bool bSendKinet;
+    bool bFlipped;
 		
 };
